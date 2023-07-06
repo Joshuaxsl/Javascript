@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    text-align: center;
+    padding: 50px;
+}
+
+.container > .gameTitle{
+    font-weight: bold;
+}
+
+.youtube,#amazon,#heightCalculator{
+    text-align: center;
+    padding: 50px;
+}
+.btnGame{
+    padding: 10px 20px;
+}
+.btnGame button{
+    padding: 10px 20px;
+
+}
+.btnReset{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Youtube */
+.btnSubscribe{
+    padding: 10px 20px;
+    margin: 25px 0px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+}
+.cssBtnSubscribe{
+    background: blue;
+}
+.removeBtnSubscribe{
+    background: white;
+}

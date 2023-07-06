@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    margin-top: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.todoList,
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 180px 180px 160px;
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center ;
+    overflow: hidden;
+}
+.todoList{
+    font-size: 20px;
+}
+.container{
+    margin: 50px 10px;
+}
+.addTodo,
+.setDate,
+.setTime,
+.setcss,
+.addBtn{
+    padding: 11px 20px;
+    font-size: 20px;
+}
+.addBtn{
+    cursor: pointer;
+    background-color: rgb(21, 194, 21);
+    color: white;
+    border: none;
+}
+
+
+.deleteBtn{
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: darkred;
+    color: white;
+    border: none;
+}
+.css-name{
+    background-color: blue;
+}
+.setcss{
+    background-color: blue;
+    color: white;
+}

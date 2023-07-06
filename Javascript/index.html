@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <h1 class="gameTitle">Rock Paper Scissors</h1>
+      <div class="btnGame">
+        <button id="myRock">Rock</button>
+        <button id="myPaper">Paper</button>
+        <button id="myScissors">Scissors</button>
+      </div>
+      <p id="js-result"></p>
+      <p id="js-score"></p>
+      <button id="resetScore" class="btnReset">Reset score</button>
+    </div>
+    <div class="youtube">
+      <h1>Youtube Subscribe Button</h1>
+      <button id="youtubeSubs" class="btnSubscribe">Subscribe</button>
+    </div>
+    <div id="amazon">
+      <h1>Amazon Shipping Calculator</h1>
+      <p>Order unnder 40$ - +10$ wshipping</p>
+      <p>Order over 40$ = Free shipping</p>
+      <input
+        placeholder="cost of order"
+        id="js-cost"
+        onkeydown="handleCostKey(event)"
+      />
+      <button onclick="calculateTotal()">Calculate</button>
+      <p id="totalCost"></p>
+    </div>
+    <div id="heightCalculator">
+      <h1>Height Calculator</h1>
+      <input placeholder="Input your height" id="js-calculateHeight" />
+      <button onclick="calculateHeight()">Calculate</button>
+      <button id="clearHeight" onclick="clearHeight()">Clear</button>
+      <h1 id="setCalculateHeight"></h1>
+    </div>
+  </body>
+  <script src="main.js"></script>
+  <script src="object.js"></script>
+  <script src="DOM.js"></script>
+</html>

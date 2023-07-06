@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+.Game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameContainer button{
+    padding: 20px;
+    margin: 0px 20px;
+}
+.gameContainer p {
+    margin: 10px 0px;
+}
+/* rotate the rock svg and set other properties */
+.svg-rock{
+    transform: rotate(90deg);
+}
+/* set the border to circle */
+#myRock , #myPaper, #myScissors{
+    border-radius: 50%;
+}
+.svg-rock , .svg-paper , .svg-scissor{
+    width: 100px;
+    height: 100px;
+}
+button{
+    cursor: pointer;
+}
+.result{
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+.score{
+    padding: 10px;
+    font-size: 30px;
+}
+.btnReset{
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 20px 0px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    background-color: rgb(232, 12, 12);
+    color: white;
+}
+.container h1{
+    margin: 50px 0px;
+    font-weight: bolder;
+    font-size: 100px;
+}

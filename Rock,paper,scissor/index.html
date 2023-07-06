@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <h1 class="gameTitle">Rock Paper Scissors</h1>
+        <div class="Game">
+          <div class="gameContainer">
+            <button id="myRock" onclick="getPlayerMove('rock')">
+              <img class="svg-rock" src="svg/rock.svg" alt="rock" />
+            </button>
+            <p>Rock</p>
+          </div>
+          <div class="gameContainer">
+            <button id="myPaper" onclick="getPlayerMove('paper')">
+              <img class="svg-paper" src="svg/paper.svg" alt="paper" />
+            </button>
+            <p>Paper</p>
+          </div>
+          <div class="gameContainer">
+            <button id="myScissors" onclick="getPlayerMove('scissors')">
+              <img class="svg-paper" src="svg/scissor.svg" alt="paper" />
+            </button>
+            <p>Scissors</p>
+          </div>
+        </div>
+        <p id="js-result" class="result"></p>
+        <p id="js-score" class="score"></p>
+        <button id="resetScore" class="btnReset">Reset score</button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
