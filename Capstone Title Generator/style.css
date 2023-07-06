@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.js-generate {
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 50px;
+  padding: 100px 50px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(svg/blob-scene-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  text-align: center;
+  width: 100%;
+  height: 80%;
+}
+h1,
+.btnGenerate,
+.js-generate {
+  margin-top: 40px;
+}
+.btnGenerate,
+.btnCopy {
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  background-color: rgb(58, 227, 58);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transform: scale(1, 1);
+  margin-bottom:20px ;
+}
+
+.btnGenerate:active,
+.btnCopy:active {
+  transform: translateY(2px);
+}
+
+
+@media (max-width: 600px) {
+  .js-generate {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .btnGenerate {
+    margin: 0;
+  }
+  h1 {
+    padding-top: 90px;
+  }
+
+}
+.notification{
+    color: white;
+}
